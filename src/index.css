@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    gap: 70%;
+}
+.navbar-brand h2{
+    font-size: 2rem;
+}
+.navbar-nav{
+    display: flex;
+    gap: 15%;
+}
+.nav-link{
+    border: 1px solid rgb(128, 128, 128,0.2);
+}
+.list-group-item{
+    cursor: pointer;
+}
+@media(max-width:768px){
+    .nav-link{
+        border: none;
+    }
+}
