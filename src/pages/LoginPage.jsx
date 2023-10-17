@@ -29,6 +29,10 @@ const LoginPage = () => {
     <div className="log">
       <form onSubmit={handleSubmit(submit)}>
         <legend>Welcome! Enter your email and password to continue</legend>
+
+        <h2>credentials</h2>
+        <p>user:pepe12@gmail.com</p>
+        <p>password:pepe123</p>
         <div>
           <label htmlFor="email">Email</label>
           <input {...register("email")} type="email" />

@@ -258,9 +258,15 @@
         flex-direction: column;
         margin: 0 auto;
     }
+    .log{
+        width: 80%;
+    }
 }
 @media(max-width:428px){
     .main{
         grid-template-columns: 1fr ;
+    }
+    .log{
+        width: 80%;
     }
 }
